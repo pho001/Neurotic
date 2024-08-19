@@ -152,7 +152,7 @@ public class Demos {
 
 
         params = new HashSet<>();
-        FileHandler fh = new FileHandler("data/ceskaslova.txt");
+        FileHandler fh = new FileHandler("data/names.txt");
         List<String> set = fh.ReadFileLines();
         Collections.shuffle(set);
         ds = new StringDataSet(set);
